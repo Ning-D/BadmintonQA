@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.mp4
+
+# Generated evidence frames / viz (large, reproducible from videos)
+badminton_data/viz/
+data_pre/shot-example/frames/
+data_pre/shot-example/vqa-evidence/viz/
+data_pre/shot-example/vqa-evidence-backup/viz/
+data_pre/shot-example/vqa-qceg/viz/
+data_pre/shot-example/vqa-qceg-detective/viz/
+data_pre/shot-example/vqa-qceg-detective-cf/viz/
+data_pre/shot-example/figures/

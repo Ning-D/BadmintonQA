@@ -1,0 +1,2797 @@
+[
+ {
+  "match_name": "KAPAL-API-Indonesia-Open-2025-Anders-Antonsen-DEN-3-vs.-Chou-Tien-Chen-TPE-6-F",
+  "video": "/mnt/HDD12TB-1/ding/BadmintonQA/badminton_data/videos/KAPAL-API-Indonesia-Open-2025/KAPAL-API-Indonesia-Open-2025-Anders-Antonsen-DEN-3-vs.-Chou-Tien-Chen-TPE-6-F.mp4",
+  "n_games": 2,
+  "players": [
+   "Anders Antonsen",
+   "Chou Tien Chen"
+  ],
+  "rallies_per_game": {
+   "1": 42,
+   "2": 35
+  },
+  "qa": [
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Anders-Antonsen-DEN-3-vs.-Chou-Tien-Chen-TPE-6-F::style::Anders Antonsen",
+    "type": "style_shift",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Anders Antonsen's overall playing style change?",
+    "options": [
+     "stayed roughly the same",
+     "became more defensive",
+     "became more offensive",
+     "fluctuated with no clear trend"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       16201,
+       68028
+      ],
+      "2": [
+       72101,
+       123323
+      ]
+     }
+    },
+    "explanation": "offensive share 0.50 (G1) -> 0.56 (G2)"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Anders-Antonsen-DEN-3-vs.-Chou-Tien-Chen-TPE-6-F::who_def",
+    "type": "adaptation",
+    "scope": "match",
+    "question": "Across the match, which player shifted MORE toward a defensive game?",
+    "options": [
+     "Neither changed much",
+     "Chou Tien Chen",
+     "Both shifted similarly",
+     "Anders Antonsen"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       16201,
+       68028
+      ],
+      "2": [
+       72101,
+       123323
+      ]
+     }
+    },
+    "explanation": "off-share change: Anders Antonsen +0.06, Chou Tien Chen -0.13"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Anders-Antonsen-DEN-3-vs.-Chou-Tien-Chen-TPE-6-F::freq::Anders Antonsen::serve-to-attack setup",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Anders Antonsen's use of \"serve-to-attack setup\" change?",
+    "options": [
+     "barely used it in either game",
+     "used it about as often",
+     "used it more often",
+     "used it less often"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       16201,
+       68028
+      ],
+      "2": [
+       72101,
+       123323
+      ]
+     }
+    },
+    "explanation": "serve-to-attack setup rate/rally: 0.00 (G1) -> 0.17 (G2)"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Anders-Antonsen-DEN-3-vs.-Chou-Tien-Chen-TPE-6-F::freq::Anders Antonsen::block-to-net counter",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Anders Antonsen's use of \"block-to-net counter\" change?",
+    "options": [
+     "used it less often",
+     "barely used it in either game",
+     "used it about as often",
+     "used it more often"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       16201,
+       68028
+      ],
+      "2": [
+       72101,
+       123323
+      ]
+     }
+    },
+    "explanation": "block-to-net counter rate/rally: 0.14 (G1) -> 0.31 (G2)"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Anders-Antonsen-DEN-3-vs.-Chou-Tien-Chen-TPE-6-F::freq::Chou Tien Chen::block-to-net counter",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Chou Tien Chen's use of \"block-to-net counter\" change?",
+    "options": [
+     "used it more often",
+     "used it about as often",
+     "used it less often",
+     "barely used it in either game"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       16201,
+       68028
+      ],
+      "2": [
+       72101,
+       123323
+      ]
+     }
+    },
+    "explanation": "block-to-net counter rate/rally: 0.17 (G1) -> 0.34 (G2)"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Anders-Antonsen-DEN-3-vs.-Chou-Tien-Chen-TPE-6-F::freq::Chou Tien Chen::serve-to-attack setup",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Chou Tien Chen's use of \"serve-to-attack setup\" change?",
+    "options": [
+     "barely used it in either game",
+     "used it less often",
+     "used it about as often",
+     "used it more often"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       16201,
+       68028
+      ],
+      "2": [
+       72101,
+       123323
+      ]
+     }
+    },
+    "explanation": "serve-to-attack setup rate/rally: 0.12 (G1) -> 0.03 (G2)"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Anders-Antonsen-DEN-3-vs.-Chou-Tien-Chen-TPE-6-F::rose::Chou Tien Chen",
+    "type": "tactic_rose",
+    "scope": "cross-game",
+    "question": "Which tactic did Chou Tien Chen turn to noticeably MORE in Game 2 than Game 1?",
+    "options": [
+     "serve-to-attack setup",
+     "continuous attack pressure",
+     "block-to-net counter",
+     "net-press pressure"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       16201,
+       68028
+      ],
+      "2": [
+       72101,
+       123323
+      ]
+     }
+    },
+    "explanation": "block-to-net counter rose by +0.18/rally"
+   }
+  ]
+ },
+ {
+  "match_name": "KAPAL-API-Indonesia-Open-2025-Chou-Tien-Chen-TPE-6-vs.-Kunlavut-Vitidsarn-THA-2-SF",
+  "video": "/mnt/HDD12TB-1/ding/BadmintonQA/badminton_data/videos/KAPAL-API-Indonesia-Open-2025/KAPAL-API-Indonesia-Open-2025-Chou-Tien-Chen-TPE-6-vs.-Kunlavut-Vitidsarn-THA-2-SF.mp4",
+  "n_games": 2,
+  "players": [
+   "Chou Tien Chen",
+   "Kunlavut Vitidsarn"
+  ],
+  "rallies_per_game": {
+   "1": 37,
+   "2": 44
+  },
+  "qa": [
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Chou-Tien-Chen-TPE-6-vs.-Kunlavut-Vitidsarn-THA-2-SF::style::Chou Tien Chen",
+    "type": "style_shift",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Chou Tien Chen's overall playing style change?",
+    "options": [
+     "stayed roughly the same",
+     "fluctuated with no clear trend",
+     "became more offensive",
+     "became more defensive"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       11091,
+       50213
+      ],
+      "2": [
+       54412,
+       117636
+      ]
+     }
+    },
+    "explanation": "offensive share 0.75 (G1) -> 0.47 (G2)"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Chou-Tien-Chen-TPE-6-vs.-Kunlavut-Vitidsarn-THA-2-SF::style::Kunlavut Vitidsarn",
+    "type": "style_shift",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Kunlavut Vitidsarn's overall playing style change?",
+    "options": [
+     "stayed roughly the same",
+     "became more defensive",
+     "fluctuated with no clear trend",
+     "became more offensive"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       11091,
+       50213
+      ],
+      "2": [
+       54412,
+       117636
+      ]
+     }
+    },
+    "explanation": "offensive share 0.44 (G1) -> 0.48 (G2)"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Chou-Tien-Chen-TPE-6-vs.-Kunlavut-Vitidsarn-THA-2-SF::who_def",
+    "type": "adaptation",
+    "scope": "match",
+    "question": "Across the match, which player shifted MORE toward a defensive game?",
+    "options": [
+     "Kunlavut Vitidsarn",
+     "Chou Tien Chen",
+     "Both shifted similarly",
+     "Neither changed much"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       11091,
+       50213
+      ],
+      "2": [
+       54412,
+       117636
+      ]
+     }
+    },
+    "explanation": "off-share change: Chou Tien Chen -0.28, Kunlavut Vitidsarn +0.04"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Chou-Tien-Chen-TPE-6-vs.-Kunlavut-Vitidsarn-THA-2-SF::freq::Chou Tien Chen::block-to-net counter",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Chou Tien Chen's use of \"block-to-net counter\" change?",
+    "options": [
+     "barely used it in either game",
+     "used it less often",
+     "used it more often",
+     "used it about as often"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       11091,
+       50213
+      ],
+      "2": [
+       54412,
+       117636
+      ]
+     }
+    },
+    "explanation": "block-to-net counter rate/rally: 0.08 (G1) -> 0.30 (G2)"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Chou-Tien-Chen-TPE-6-vs.-Kunlavut-Vitidsarn-THA-2-SF::freq::Chou Tien Chen::lift-block defense",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Chou Tien Chen's use of \"lift-block defense\" change?",
+    "options": [
+     "barely used it in either game",
+     "used it about as often",
+     "used it less often",
+     "used it more often"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       11091,
+       50213
+      ],
+      "2": [
+       54412,
+       117636
+      ]
+     }
+    },
+    "explanation": "lift-block defense rate/rally: 0.11 (G1) -> 0.25 (G2)"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Chou-Tien-Chen-TPE-6-vs.-Kunlavut-Vitidsarn-THA-2-SF::freq::Kunlavut Vitidsarn::net-lift-smash attack",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Kunlavut Vitidsarn's use of \"net-lift-smash attack\" change?",
+    "options": [
+     "used it more often",
+     "used it about as often",
+     "barely used it in either game",
+     "used it less often"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       11091,
+       50213
+      ],
+      "2": [
+       54412,
+       117636
+      ]
+     }
+    },
+    "explanation": "net-lift-smash attack rate/rally: 0.14 (G1) -> 0.30 (G2)"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Chou-Tien-Chen-TPE-6-vs.-Kunlavut-Vitidsarn-THA-2-SF::freq::Kunlavut Vitidsarn::continuous attack pressure",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Kunlavut Vitidsarn's use of \"continuous attack pressure\" change?",
+    "options": [
+     "barely used it in either game",
+     "used it about as often",
+     "used it more often",
+     "used it less often"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       11091,
+       50213
+      ],
+      "2": [
+       54412,
+       117636
+      ]
+     }
+    },
+    "explanation": "continuous attack pressure rate/rally: 0.11 (G1) -> 0.07 (G2)"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Chou-Tien-Chen-TPE-6-vs.-Kunlavut-Vitidsarn-THA-2-SF::rose::Chou Tien Chen",
+    "type": "tactic_rose",
+    "scope": "cross-game",
+    "question": "Which tactic did Chou Tien Chen turn to noticeably MORE in Game 2 than Game 1?",
+    "options": [
+     "serve-to-attack setup",
+     "defensive reset",
+     "block-to-net counter",
+     "continuous attack pressure"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       11091,
+       50213
+      ],
+      "2": [
+       54412,
+       117636
+      ]
+     }
+    },
+    "explanation": "block-to-net counter rose by +0.21/rally"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Chou-Tien-Chen-TPE-6-vs.-Kunlavut-Vitidsarn-THA-2-SF::rose::Kunlavut Vitidsarn",
+    "type": "tactic_rose",
+    "scope": "cross-game",
+    "question": "Which tactic did Kunlavut Vitidsarn turn to noticeably MORE in Game 2 than Game 1?",
+    "options": [
+     "continuous attack pressure",
+     "serve-push pressure",
+     "smash-netkill finish",
+     "net-lift-smash attack"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       11091,
+       50213
+      ],
+      "2": [
+       54412,
+       117636
+      ]
+     }
+    },
+    "explanation": "net-lift-smash attack rose by +0.16/rally"
+   }
+  ]
+ },
+ {
+  "match_name": "KAPAL-API-Indonesia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-3-SF",
+  "video": "/mnt/HDD12TB-1/ding/BadmintonQA/badminton_data/videos/KAPAL-API-Indonesia-Open-2025/KAPAL-API-Indonesia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-3-SF.mp4",
+  "n_games": 3,
+  "players": [
+   "Shi Yu Qi",
+   "Anders Antonsen"
+  ],
+  "rallies_per_game": {
+   "1": 30,
+   "2": 39,
+   "3": 40
+  },
+  "qa": [
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-3-SF::style::Shi Yu Qi",
+    "type": "style_shift",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Shi Yu Qi's overall playing style change?",
+    "options": [
+     "became more defensive",
+     "fluctuated with no clear trend",
+     "became more offensive",
+     "stayed roughly the same"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       10467,
+       33959
+      ],
+      "3": [
+       88552,
+       133763
+      ]
+     }
+    },
+    "explanation": "offensive share 0.69 (G1) -> 0.52 (G3)"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-3-SF::style::Anders Antonsen",
+    "type": "style_shift",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Anders Antonsen's overall playing style change?",
+    "options": [
+     "became more defensive",
+     "became more offensive",
+     "stayed roughly the same",
+     "fluctuated with no clear trend"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       10467,
+       33959
+      ],
+      "3": [
+       88552,
+       133763
+      ]
+     }
+    },
+    "explanation": "offensive share 0.46 (G1) -> 0.68 (G3)"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-3-SF::who_def",
+    "type": "adaptation",
+    "scope": "match",
+    "question": "Across the match, which player shifted MORE toward a defensive game?",
+    "options": [
+     "Anders Antonsen",
+     "Neither changed much",
+     "Shi Yu Qi",
+     "Both shifted similarly"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       10467,
+       33959
+      ],
+      "3": [
+       88552,
+       133763
+      ]
+     }
+    },
+    "explanation": "off-share change: Shi Yu Qi -0.17, Anders Antonsen +0.21"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-3-SF::mostdef::Anders Antonsen",
+    "type": "most_defensive_game",
+    "scope": "match",
+    "question": "In which game was Anders Antonsen the most defensive?",
+    "options": [
+     "Game 3",
+     "Game 2",
+     "About the same in every game",
+     "Game 1"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       10467,
+       33959
+      ],
+      "3": [
+       88552,
+       133763
+      ]
+     }
+    },
+    "explanation": "defensive share by game: G1 0.54, G2 0.37, G3 0.32"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-3-SF::freq::Shi Yu Qi::lift-block defense",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Shi Yu Qi's use of \"lift-block defense\" change?",
+    "options": [
+     "used it more often",
+     "used it less often",
+     "used it about as often",
+     "barely used it in either game"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       10467,
+       33959
+      ],
+      "3": [
+       88552,
+       133763
+      ]
+     }
+    },
+    "explanation": "lift-block defense rate/rally: 0.13 (G1) -> 0.33 (G3)"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-3-SF::freq::Shi Yu Qi::net-lift-smash attack",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Shi Yu Qi's use of \"net-lift-smash attack\" change?",
+    "options": [
+     "barely used it in either game",
+     "used it less often",
+     "used it more often",
+     "used it about as often"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       10467,
+       33959
+      ],
+      "3": [
+       88552,
+       133763
+      ]
+     }
+    },
+    "explanation": "net-lift-smash attack rate/rally: 0.30 (G1) -> 0.17 (G3)"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-3-SF::freq::Anders Antonsen::net-lift-smash attack",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Anders Antonsen's use of \"net-lift-smash attack\" change?",
+    "options": [
+     "used it less often",
+     "used it about as often",
+     "used it more often",
+     "barely used it in either game"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       10467,
+       33959
+      ],
+      "3": [
+       88552,
+       133763
+      ]
+     }
+    },
+    "explanation": "net-lift-smash attack rate/rally: 0.13 (G1) -> 0.28 (G3)"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-3-SF::freq::Anders Antonsen::defensive counterattack",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Anders Antonsen's use of \"defensive counterattack\" change?",
+    "options": [
+     "used it more often",
+     "used it about as often",
+     "barely used it in either game",
+     "used it less often"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       10467,
+       33959
+      ],
+      "3": [
+       88552,
+       133763
+      ]
+     }
+    },
+    "explanation": "defensive counterattack rate/rally: 0.13 (G1) -> 0.03 (G3)"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-3-SF::rose::Shi Yu Qi",
+    "type": "tactic_rose",
+    "scope": "cross-game",
+    "question": "Which tactic did Shi Yu Qi turn to noticeably MORE in Game 3 than Game 1?",
+    "options": [
+     "lift-block defense",
+     "serve-push pressure",
+     "netkill finish",
+     "net-lift-smash attack"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       10467,
+       33959
+      ],
+      "3": [
+       88552,
+       133763
+      ]
+     }
+    },
+    "explanation": "lift-block defense rose by +0.19/rally"
+   },
+   {
+    "id": "KAPAL-API-Indonesia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-3-SF::rose::Anders Antonsen",
+    "type": "tactic_rose",
+    "scope": "cross-game",
+    "question": "Which tactic did Anders Antonsen turn to noticeably MORE in Game 3 than Game 1?",
+    "options": [
+     "drop-net trap",
+     "net-lift-smash attack",
+     "defensive counterattack",
+     "lift-block defense"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       10467,
+       33959
+      ],
+      "3": [
+       88552,
+       133763
+      ]
+     }
+    },
+    "explanation": "net-lift-smash attack rose by +0.14/rally"
+   }
+  ]
+ },
+ {
+  "match_name": "PETRONAS-Malaysia-Open-2025-Kodai-Naraok-JPN-8-vs.-Anders-Antonsen-DEN-2-SF",
+  "video": "/mnt/HDD12TB-1/ding/BadmintonQA/badminton_data/videos/PETRONAS-Malaysia-Open-2025/PETRONAS-Malaysia-Open-2025-Kodai-Naraok-JPN-8-vs.-Anders-Antonsen-DEN-2-SF.mp4",
+  "n_games": 2,
+  "players": [
+   "Kodai Naraok",
+   "Anders Antonsen"
+  ],
+  "rallies_per_game": {
+   "1": 35,
+   "2": 34
+  },
+  "qa": [
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Kodai-Naraok-JPN-8-vs.-Anders-Antonsen-DEN-2-SF::style::Kodai Naraok",
+    "type": "style_shift",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Kodai Naraok's overall playing style change?",
+    "options": [
+     "fluctuated with no clear trend",
+     "became more offensive",
+     "became more defensive",
+     "stayed roughly the same"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       10324,
+       56981
+      ],
+      "2": [
+       61300,
+       112253
+      ]
+     }
+    },
+    "explanation": "offensive share 0.76 (G1) -> 0.58 (G2)"
+   },
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Kodai-Naraok-JPN-8-vs.-Anders-Antonsen-DEN-2-SF::style::Anders Antonsen",
+    "type": "style_shift",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Anders Antonsen's overall playing style change?",
+    "options": [
+     "became more defensive",
+     "fluctuated with no clear trend",
+     "became more offensive",
+     "stayed roughly the same"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       10324,
+       56981
+      ],
+      "2": [
+       61300,
+       112253
+      ]
+     }
+    },
+    "explanation": "offensive share 0.68 (G1) -> 0.60 (G2)"
+   },
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Kodai-Naraok-JPN-8-vs.-Anders-Antonsen-DEN-2-SF::freq::Kodai Naraok::lift-block defense",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Kodai Naraok's use of \"lift-block defense\" change?",
+    "options": [
+     "used it more often",
+     "barely used it in either game",
+     "used it less often",
+     "used it about as often"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       10324,
+       56981
+      ],
+      "2": [
+       61300,
+       112253
+      ]
+     }
+    },
+    "explanation": "lift-block defense rate/rally: 0.03 (G1) -> 0.18 (G2)"
+   },
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Kodai-Naraok-JPN-8-vs.-Anders-Antonsen-DEN-2-SF::freq::Kodai Naraok::net-lift-smash attack",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Kodai Naraok's use of \"net-lift-smash attack\" change?",
+    "options": [
+     "used it more often",
+     "used it less often",
+     "used it about as often",
+     "barely used it in either game"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       10324,
+       56981
+      ],
+      "2": [
+       61300,
+       112253
+      ]
+     }
+    },
+    "explanation": "net-lift-smash attack rate/rally: 0.23 (G1) -> 0.12 (G2)"
+   },
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Kodai-Naraok-JPN-8-vs.-Anders-Antonsen-DEN-2-SF::freq::Anders Antonsen::net-lift-smash attack",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Anders Antonsen's use of \"net-lift-smash attack\" change?",
+    "options": [
+     "barely used it in either game",
+     "used it less often",
+     "used it more often",
+     "used it about as often"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       10324,
+       56981
+      ],
+      "2": [
+       61300,
+       112253
+      ]
+     }
+    },
+    "explanation": "net-lift-smash attack rate/rally: 0.03 (G1) -> 0.15 (G2)"
+   },
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Kodai-Naraok-JPN-8-vs.-Anders-Antonsen-DEN-2-SF::freq::Anders Antonsen::defensive reset",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Anders Antonsen's use of \"defensive reset\" change?",
+    "options": [
+     "used it about as often",
+     "used it less often",
+     "barely used it in either game",
+     "used it more often"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       10324,
+       56981
+      ],
+      "2": [
+       61300,
+       112253
+      ]
+     }
+    },
+    "explanation": "defensive reset rate/rally: 0.00 (G1) -> 0.12 (G2)"
+   },
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Kodai-Naraok-JPN-8-vs.-Anders-Antonsen-DEN-2-SF::rose::Kodai Naraok",
+    "type": "tactic_rose",
+    "scope": "cross-game",
+    "question": "Which tactic did Kodai Naraok turn to noticeably MORE in Game 2 than Game 1?",
+    "options": [
+     "lift-block defense",
+     "defensive reset",
+     "net-lift-smash attack",
+     "continuous attack pressure"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       10324,
+       56981
+      ],
+      "2": [
+       61300,
+       112253
+      ]
+     }
+    },
+    "explanation": "lift-block defense rose by +0.15/rally"
+   }
+  ]
+ },
+ {
+  "match_name": "PETRONAS-Malaysia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-2-F",
+  "video": "/mnt/HDD12TB-1/ding/BadmintonQA/badminton_data/videos/PETRONAS-Malaysia-Open-2025/PETRONAS-Malaysia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-2-F.mp4",
+  "n_games": 2,
+  "players": [
+   "Shi Yu Qi",
+   "Anders Antonsen"
+  ],
+  "rallies_per_game": {
+   "1": 29,
+   "2": 36
+  },
+  "qa": [
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-2-F::style::Shi Yu Qi",
+    "type": "style_shift",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Shi Yu Qi's overall playing style change?",
+    "options": [
+     "stayed roughly the same",
+     "became more defensive",
+     "fluctuated with no clear trend",
+     "became more offensive"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       10626,
+       37398
+      ],
+      "2": [
+       41250,
+       81364
+      ]
+     }
+    },
+    "explanation": "offensive share 0.83 (G1) -> 0.62 (G2)"
+   },
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-2-F::style::Anders Antonsen",
+    "type": "style_shift",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Anders Antonsen's overall playing style change?",
+    "options": [
+     "became more offensive",
+     "stayed roughly the same",
+     "became more defensive",
+     "fluctuated with no clear trend"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       10626,
+       37398
+      ],
+      "2": [
+       41250,
+       81364
+      ]
+     }
+    },
+    "explanation": "offensive share 0.76 (G1) -> 0.44 (G2)"
+   },
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-2-F::freq::Shi Yu Qi::lift-block defense",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Shi Yu Qi's use of \"lift-block defense\" change?",
+    "options": [
+     "used it about as often",
+     "used it less often",
+     "barely used it in either game",
+     "used it more often"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       10626,
+       37398
+      ],
+      "2": [
+       41250,
+       81364
+      ]
+     }
+    },
+    "explanation": "lift-block defense rate/rally: 0.07 (G1) -> 0.22 (G2)"
+   },
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-2-F::freq::Shi Yu Qi::net-lift-smash attack",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Shi Yu Qi's use of \"net-lift-smash attack\" change?",
+    "options": [
+     "used it more often",
+     "used it about as often",
+     "used it less often",
+     "barely used it in either game"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       10626,
+       37398
+      ],
+      "2": [
+       41250,
+       81364
+      ]
+     }
+    },
+    "explanation": "net-lift-smash attack rate/rally: 0.10 (G1) -> 0.19 (G2)"
+   },
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-2-F::freq::Anders Antonsen::block-to-net counter",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Anders Antonsen's use of \"block-to-net counter\" change?",
+    "options": [
+     "used it less often",
+     "used it more often",
+     "barely used it in either game",
+     "used it about as often"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       10626,
+       37398
+      ],
+      "2": [
+       41250,
+       81364
+      ]
+     }
+    },
+    "explanation": "block-to-net counter rate/rally: 0.00 (G1) -> 0.31 (G2)"
+   },
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-2-F::freq::Anders Antonsen::lift-block defense",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Anders Antonsen's use of \"lift-block defense\" change?",
+    "options": [
+     "barely used it in either game",
+     "used it about as often",
+     "used it more often",
+     "used it less often"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       10626,
+       37398
+      ],
+      "2": [
+       41250,
+       81364
+      ]
+     }
+    },
+    "explanation": "lift-block defense rate/rally: 0.10 (G1) -> 0.31 (G2)"
+   },
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-2-F::rose::Shi Yu Qi",
+    "type": "tactic_rose",
+    "scope": "cross-game",
+    "question": "Which tactic did Shi Yu Qi turn to noticeably MORE in Game 2 than Game 1?",
+    "options": [
+     "continuous attack pressure",
+     "drop-net trap",
+     "serve-push pressure",
+     "lift-block defense"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       10626,
+       37398
+      ],
+      "2": [
+       41250,
+       81364
+      ]
+     }
+    },
+    "explanation": "lift-block defense rose by +0.15/rally"
+   },
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Anders-Antonsen-DEN-2-F::rose::Anders Antonsen",
+    "type": "tactic_rose",
+    "scope": "cross-game",
+    "question": "Which tactic did Anders Antonsen turn to noticeably MORE in Game 2 than Game 1?",
+    "options": [
+     "block-to-net counter",
+     "defensive reset",
+     "drop-net trap",
+     "long-serve-to-attack setup"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       10626,
+       37398
+      ],
+      "2": [
+       41250,
+       81364
+      ]
+     }
+    },
+    "explanation": "block-to-net counter rose by +0.31/rally"
+   }
+  ]
+ },
+ {
+  "match_name": "PETRONAS-Malaysia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-7-SF",
+  "video": "/mnt/HDD12TB-1/ding/BadmintonQA/badminton_data/videos/PETRONAS-Malaysia-Open-2025/PETRONAS-Malaysia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-7-SF.mp4",
+  "n_games": 3,
+  "players": [
+   "Shi Yu Qi",
+   "Li Shi Feng"
+  ],
+  "rallies_per_game": {
+   "1": 37,
+   "2": 25,
+   "3": 33
+  },
+  "qa": [
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-7-SF::style::Shi Yu Qi",
+    "type": "style_shift",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Shi Yu Qi's overall playing style change?",
+    "options": [
+     "became more offensive",
+     "stayed roughly the same",
+     "became more defensive",
+     "fluctuated with no clear trend"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       9269,
+       53548
+      ],
+      "3": [
+       88270,
+       126532
+      ]
+     }
+    },
+    "explanation": "offensive share 0.58 (G1) -> 0.58 (G3)"
+   },
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-7-SF::style::Li Shi Feng",
+    "type": "style_shift",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Li Shi Feng's overall playing style change?",
+    "options": [
+     "fluctuated with no clear trend",
+     "became more offensive",
+     "stayed roughly the same",
+     "became more defensive"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       9269,
+       53548
+      ],
+      "3": [
+       88270,
+       126532
+      ]
+     }
+    },
+    "explanation": "offensive share 0.48 (G1) -> 0.49 (G3)"
+   },
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-7-SF::freq::Shi Yu Qi::block-to-net counter",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Shi Yu Qi's use of \"block-to-net counter\" change?",
+    "options": [
+     "used it less often",
+     "barely used it in either game",
+     "used it more often",
+     "used it about as often"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       9269,
+       53548
+      ],
+      "3": [
+       88270,
+       126532
+      ]
+     }
+    },
+    "explanation": "block-to-net counter rate/rally: 0.19 (G1) -> 0.21 (G3)"
+   },
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-7-SF::freq::Shi Yu Qi::continuous attack pressure",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Shi Yu Qi's use of \"continuous attack pressure\" change?",
+    "options": [
+     "used it about as often",
+     "used it more often",
+     "used it less often",
+     "barely used it in either game"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       9269,
+       53548
+      ],
+      "3": [
+       88270,
+       126532
+      ]
+     }
+    },
+    "explanation": "continuous attack pressure rate/rally: 0.11 (G1) -> 0.09 (G3)"
+   },
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-7-SF::freq::Li Shi Feng::net-lift-smash attack",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Li Shi Feng's use of \"net-lift-smash attack\" change?",
+    "options": [
+     "used it less often",
+     "used it more often",
+     "barely used it in either game",
+     "used it about as often"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       9269,
+       53548
+      ],
+      "3": [
+       88270,
+       126532
+      ]
+     }
+    },
+    "explanation": "net-lift-smash attack rate/rally: 0.24 (G1) -> 0.45 (G3)"
+   },
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-7-SF::freq::Li Shi Feng::defensive counterattack",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Li Shi Feng's use of \"defensive counterattack\" change?",
+    "options": [
+     "used it about as often",
+     "barely used it in either game",
+     "used it more often",
+     "used it less often"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       9269,
+       53548
+      ],
+      "3": [
+       88270,
+       126532
+      ]
+     }
+    },
+    "explanation": "defensive counterattack rate/rally: 0.00 (G1) -> 0.12 (G3)"
+   },
+   {
+    "id": "PETRONAS-Malaysia-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-7-SF::rose::Li Shi Feng",
+    "type": "tactic_rose",
+    "scope": "cross-game",
+    "question": "Which tactic did Li Shi Feng turn to noticeably MORE in Game 3 than Game 1?",
+    "options": [
+     "serve-to-attack setup",
+     "drop-net trap",
+     "serve-push pressure",
+     "net-lift-smash attack"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       9269,
+       53548
+      ],
+      "3": [
+       88270,
+       126532
+      ]
+     }
+    },
+    "explanation": "net-lift-smash attack rose by +0.21/rally"
+   }
+  ]
+ },
+ {
+  "match_name": "VICTOR-China-Open-2025-Chou-Tien-Chen-TPE-6-vs.-Shi-Yu-Qi-CHN-3-SF",
+  "video": "/mnt/HDD12TB-1/ding/BadmintonQA/badminton_data/videos/VICTOR-China-Open-2025/VICTOR-China-Open-2025-Chou-Tien-Chen-TPE-6-vs.-Shi-Yu-Qi-CHN-3-SF.mp4",
+  "n_games": 2,
+  "players": [
+   "Shi Yu Qi",
+   "Chou Tien Chen"
+  ],
+  "rallies_per_game": {
+   "1": 33,
+   "2": 41
+  },
+  "qa": [
+   {
+    "id": "VICTOR-China-Open-2025-Chou-Tien-Chen-TPE-6-vs.-Shi-Yu-Qi-CHN-3-SF::style::Shi Yu Qi",
+    "type": "style_shift",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Shi Yu Qi's overall playing style change?",
+    "options": [
+     "stayed roughly the same",
+     "became more defensive",
+     "fluctuated with no clear trend",
+     "became more offensive"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       11955,
+       42322
+      ],
+      "2": [
+       46494,
+       91883
+      ]
+     }
+    },
+    "explanation": "offensive share 0.64 (G1) -> 0.61 (G2)"
+   },
+   {
+    "id": "VICTOR-China-Open-2025-Chou-Tien-Chen-TPE-6-vs.-Shi-Yu-Qi-CHN-3-SF::style::Chou Tien Chen",
+    "type": "style_shift",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Chou Tien Chen's overall playing style change?",
+    "options": [
+     "became more defensive",
+     "stayed roughly the same",
+     "fluctuated with no clear trend",
+     "became more offensive"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       11955,
+       42322
+      ],
+      "2": [
+       46494,
+       91883
+      ]
+     }
+    },
+    "explanation": "offensive share 0.54 (G1) -> 0.55 (G2)"
+   },
+   {
+    "id": "VICTOR-China-Open-2025-Chou-Tien-Chen-TPE-6-vs.-Shi-Yu-Qi-CHN-3-SF::freq::Shi Yu Qi::continuous attack pressure",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Shi Yu Qi's use of \"continuous attack pressure\" change?",
+    "options": [
+     "used it about as often",
+     "used it more often",
+     "used it less often",
+     "barely used it in either game"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       11955,
+       42322
+      ],
+      "2": [
+       46494,
+       91883
+      ]
+     }
+    },
+    "explanation": "continuous attack pressure rate/rally: 0.12 (G1) -> 0.02 (G2)"
+   },
+   {
+    "id": "VICTOR-China-Open-2025-Chou-Tien-Chen-TPE-6-vs.-Shi-Yu-Qi-CHN-3-SF::freq::Shi Yu Qi::net-lift-smash attack",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Shi Yu Qi's use of \"net-lift-smash attack\" change?",
+    "options": [
+     "barely used it in either game",
+     "used it less often",
+     "used it more often",
+     "used it about as often"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       11955,
+       42322
+      ],
+      "2": [
+       46494,
+       91883
+      ]
+     }
+    },
+    "explanation": "net-lift-smash attack rate/rally: 0.18 (G1) -> 0.22 (G2)"
+   },
+   {
+    "id": "VICTOR-China-Open-2025-Chou-Tien-Chen-TPE-6-vs.-Shi-Yu-Qi-CHN-3-SF::freq::Chou Tien Chen::net-lift-smash attack",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Chou Tien Chen's use of \"net-lift-smash attack\" change?",
+    "options": [
+     "used it less often",
+     "barely used it in either game",
+     "used it about as often",
+     "used it more often"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       11955,
+       42322
+      ],
+      "2": [
+       46494,
+       91883
+      ]
+     }
+    },
+    "explanation": "net-lift-smash attack rate/rally: 0.30 (G1) -> 0.20 (G2)"
+   },
+   {
+    "id": "VICTOR-China-Open-2025-Chou-Tien-Chen-TPE-6-vs.-Shi-Yu-Qi-CHN-3-SF::freq::Chou Tien Chen::block-to-net counter",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Chou Tien Chen's use of \"block-to-net counter\" change?",
+    "options": [
+     "used it less often",
+     "used it more often",
+     "used it about as often",
+     "barely used it in either game"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       11955,
+       42322
+      ],
+      "2": [
+       46494,
+       91883
+      ]
+     }
+    },
+    "explanation": "block-to-net counter rate/rally: 0.03 (G1) -> 0.12 (G2)"
+   }
+  ]
+ },
+ {
+  "match_name": "VICTOR-China-Open-2025-Shi-Yu-Qi-CHN-3-vs.-Wang-Zheng-Xing-CHN-F",
+  "video": "/mnt/HDD12TB-1/ding/BadmintonQA/badminton_data/videos/VICTOR-China-Open-2025/VICTOR-China-Open-2025-Shi-Yu-Qi-CHN-3-vs.-Wang-Zheng-Xing-CHN-F.mp4",
+  "n_games": 3,
+  "players": [
+   "Wang Zheng Xing",
+   "Shi Yu Qi"
+  ],
+  "rallies_per_game": {
+   "1": 35,
+   "2": 35,
+   "3": 36
+  },
+  "qa": [
+   {
+    "id": "VICTOR-China-Open-2025-Shi-Yu-Qi-CHN-3-vs.-Wang-Zheng-Xing-CHN-F::style::Wang Zheng Xing",
+    "type": "style_shift",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Wang Zheng Xing's overall playing style change?",
+    "options": [
+     "became more offensive",
+     "became more defensive",
+     "stayed roughly the same",
+     "fluctuated with no clear trend"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       14381,
+       48832
+      ],
+      "3": [
+       90712,
+       128815
+      ]
+     }
+    },
+    "explanation": "offensive share 0.59 (G1) -> 0.60 (G3)"
+   },
+   {
+    "id": "VICTOR-China-Open-2025-Shi-Yu-Qi-CHN-3-vs.-Wang-Zheng-Xing-CHN-F::style::Shi Yu Qi",
+    "type": "style_shift",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Shi Yu Qi's overall playing style change?",
+    "options": [
+     "became more offensive",
+     "fluctuated with no clear trend",
+     "stayed roughly the same",
+     "became more defensive"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       14381,
+       48832
+      ],
+      "3": [
+       90712,
+       128815
+      ]
+     }
+    },
+    "explanation": "offensive share 0.71 (G1) -> 0.25 (G3)"
+   },
+   {
+    "id": "VICTOR-China-Open-2025-Shi-Yu-Qi-CHN-3-vs.-Wang-Zheng-Xing-CHN-F::who_def",
+    "type": "adaptation",
+    "scope": "match",
+    "question": "Across the match, which player shifted MORE toward a defensive game?",
+    "options": [
+     "Shi Yu Qi",
+     "Neither changed much",
+     "Wang Zheng Xing",
+     "Both shifted similarly"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       14381,
+       48832
+      ],
+      "3": [
+       90712,
+       128815
+      ]
+     }
+    },
+    "explanation": "off-share change: Wang Zheng Xing +0.01, Shi Yu Qi -0.46"
+   },
+   {
+    "id": "VICTOR-China-Open-2025-Shi-Yu-Qi-CHN-3-vs.-Wang-Zheng-Xing-CHN-F::freq::Wang Zheng Xing::lift-block defense",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Wang Zheng Xing's use of \"lift-block defense\" change?",
+    "options": [
+     "used it more often",
+     "used it less often",
+     "used it about as often",
+     "barely used it in either game"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       14381,
+       48832
+      ],
+      "3": [
+       90712,
+       128815
+      ]
+     }
+    },
+    "explanation": "lift-block defense rate/rally: 0.23 (G1) -> 0.14 (G3)"
+   },
+   {
+    "id": "VICTOR-China-Open-2025-Shi-Yu-Qi-CHN-3-vs.-Wang-Zheng-Xing-CHN-F::freq::Wang Zheng Xing::net-lift-smash attack",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Wang Zheng Xing's use of \"net-lift-smash attack\" change?",
+    "options": [
+     "used it less often",
+     "used it more often",
+     "used it about as often",
+     "barely used it in either game"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       14381,
+       48832
+      ],
+      "3": [
+       90712,
+       128815
+      ]
+     }
+    },
+    "explanation": "net-lift-smash attack rate/rally: 0.26 (G1) -> 0.28 (G3)"
+   },
+   {
+    "id": "VICTOR-China-Open-2025-Shi-Yu-Qi-CHN-3-vs.-Wang-Zheng-Xing-CHN-F::freq::Shi Yu Qi::net-lift-smash attack",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Shi Yu Qi's use of \"net-lift-smash attack\" change?",
+    "options": [
+     "used it about as often",
+     "used it more often",
+     "barely used it in either game",
+     "used it less often"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       14381,
+       48832
+      ],
+      "3": [
+       90712,
+       128815
+      ]
+     }
+    },
+    "explanation": "net-lift-smash attack rate/rally: 0.31 (G1) -> 0.08 (G3)"
+   },
+   {
+    "id": "VICTOR-China-Open-2025-Shi-Yu-Qi-CHN-3-vs.-Wang-Zheng-Xing-CHN-F::freq::Shi Yu Qi::lift-block defense",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Shi Yu Qi's use of \"lift-block defense\" change?",
+    "options": [
+     "used it more often",
+     "used it less often",
+     "used it about as often",
+     "barely used it in either game"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       14381,
+       48832
+      ],
+      "3": [
+       90712,
+       128815
+      ]
+     }
+    },
+    "explanation": "lift-block defense rate/rally: 0.14 (G1) -> 0.28 (G3)"
+   },
+   {
+    "id": "VICTOR-China-Open-2025-Shi-Yu-Qi-CHN-3-vs.-Wang-Zheng-Xing-CHN-F::rose::Shi Yu Qi",
+    "type": "tactic_rose",
+    "scope": "cross-game",
+    "question": "Which tactic did Shi Yu Qi turn to noticeably MORE in Game 3 than Game 1?",
+    "options": [
+     "net-lift-smash attack",
+     "lift-block defense",
+     "drop-net trap",
+     "netkill finish"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       14381,
+       48832
+      ],
+      "3": [
+       90712,
+       128815
+      ]
+     }
+    },
+    "explanation": "lift-block defense rose by +0.13/rally"
+   }
+  ]
+ },
+ {
+  "match_name": "VICTOR-China-Open-2025-Wang-Zheng-Xing-CHN-vs.-Anders-Antonsen-DEN-2-SF",
+  "video": "/mnt/HDD12TB-1/ding/BadmintonQA/badminton_data/videos/VICTOR-China-Open-2025/VICTOR-China-Open-2025-Wang-Zheng-Xing-CHN-vs.-Anders-Antonsen-DEN-2-SF.mp4",
+  "n_games": 2,
+  "players": [
+   "Anders Antonsen",
+   "Wang Zheng Xing"
+  ],
+  "rallies_per_game": {
+   "1": 39,
+   "2": 36
+  },
+  "qa": [
+   {
+    "id": "VICTOR-China-Open-2025-Wang-Zheng-Xing-CHN-vs.-Anders-Antonsen-DEN-2-SF::style::Anders Antonsen",
+    "type": "style_shift",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Anders Antonsen's overall playing style change?",
+    "options": [
+     "became more defensive",
+     "became more offensive",
+     "stayed roughly the same",
+     "fluctuated with no clear trend"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       18061,
+       61927
+      ],
+      "2": [
+       66128,
+       104338
+      ]
+     }
+    },
+    "explanation": "offensive share 0.52 (G1) -> 0.45 (G2)"
+   },
+   {
+    "id": "VICTOR-China-Open-2025-Wang-Zheng-Xing-CHN-vs.-Anders-Antonsen-DEN-2-SF::who_def",
+    "type": "adaptation",
+    "scope": "match",
+    "question": "Across the match, which player shifted MORE toward a defensive game?",
+    "options": [
+     "Neither changed much",
+     "Wang Zheng Xing",
+     "Both shifted similarly",
+     "Anders Antonsen"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       18061,
+       61927
+      ],
+      "2": [
+       66128,
+       104338
+      ]
+     }
+    },
+    "explanation": "off-share change: Anders Antonsen -0.08, Wang Zheng Xing +0.12"
+   },
+   {
+    "id": "VICTOR-China-Open-2025-Wang-Zheng-Xing-CHN-vs.-Anders-Antonsen-DEN-2-SF::freq::Anders Antonsen::net-lift-smash attack",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Anders Antonsen's use of \"net-lift-smash attack\" change?",
+    "options": [
+     "used it less often",
+     "barely used it in either game",
+     "used it about as often",
+     "used it more often"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       18061,
+       61927
+      ],
+      "2": [
+       66128,
+       104338
+      ]
+     }
+    },
+    "explanation": "net-lift-smash attack rate/rally: 0.23 (G1) -> 0.14 (G2)"
+   },
+   {
+    "id": "VICTOR-China-Open-2025-Wang-Zheng-Xing-CHN-vs.-Anders-Antonsen-DEN-2-SF::freq::Anders Antonsen::block-to-net counter",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Anders Antonsen's use of \"block-to-net counter\" change?",
+    "options": [
+     "used it more often",
+     "used it about as often",
+     "barely used it in either game",
+     "used it less often"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       18061,
+       61927
+      ],
+      "2": [
+       66128,
+       104338
+      ]
+     }
+    },
+    "explanation": "block-to-net counter rate/rally: 0.15 (G1) -> 0.17 (G2)"
+   },
+   {
+    "id": "VICTOR-China-Open-2025-Wang-Zheng-Xing-CHN-vs.-Anders-Antonsen-DEN-2-SF::freq::Wang Zheng Xing::lift-block defense",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Wang Zheng Xing's use of \"lift-block defense\" change?",
+    "options": [
+     "used it more often",
+     "barely used it in either game",
+     "used it less often",
+     "used it about as often"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       18061,
+       61927
+      ],
+      "2": [
+       66128,
+       104338
+      ]
+     }
+    },
+    "explanation": "lift-block defense rate/rally: 0.28 (G1) -> 0.14 (G2)"
+   },
+   {
+    "id": "VICTOR-China-Open-2025-Wang-Zheng-Xing-CHN-vs.-Anders-Antonsen-DEN-2-SF::freq::Wang Zheng Xing::serve-push pressure",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Wang Zheng Xing's use of \"serve-push pressure\" change?",
+    "options": [
+     "barely used it in either game",
+     "used it more often",
+     "used it about as often",
+     "used it less often"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       18061,
+       61927
+      ],
+      "2": [
+       66128,
+       104338
+      ]
+     }
+    },
+    "explanation": "serve-push pressure rate/rally: 0.15 (G1) -> 0.06 (G2)"
+   }
+  ]
+ },
+ {
+  "match_name": "YONEX-All-England-Open-2025-Lee-Chia-Hao-TPE-vs.-Alex-Lanier-FRA-SF",
+  "video": "/mnt/HDD12TB-1/ding/BadmintonQA/badminton_data/videos/YONEX-All-England-Open-2025/YONEX-All-England-Open-2025-Lee-Chia-Hao-TPE-vs.-Alex-Lanier-FRA-SF.mp4",
+  "n_games": 3,
+  "players": [
+   "Lee Chia Hao",
+   "Alex Lanier"
+  ],
+  "rallies_per_game": {
+   "1": 39,
+   "2": 35,
+   "3": 38
+  },
+  "qa": [
+   {
+    "id": "YONEX-All-England-Open-2025-Lee-Chia-Hao-TPE-vs.-Alex-Lanier-FRA-SF::style::Alex Lanier",
+    "type": "style_shift",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Alex Lanier's overall playing style change?",
+    "options": [
+     "stayed roughly the same",
+     "became more offensive",
+     "fluctuated with no clear trend",
+     "became more defensive"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       11203,
+       50256
+      ],
+      "3": [
+       93983,
+       134295
+      ]
+     }
+    },
+    "explanation": "offensive share 0.54 (G1) -> 0.52 (G3)"
+   },
+   {
+    "id": "YONEX-All-England-Open-2025-Lee-Chia-Hao-TPE-vs.-Alex-Lanier-FRA-SF::freq::Lee Chia Hao::net-lift-smash attack",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Lee Chia Hao's use of \"net-lift-smash attack\" change?",
+    "options": [
+     "barely used it in either game",
+     "used it about as often",
+     "used it more often",
+     "used it less often"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       11203,
+       50256
+      ],
+      "3": [
+       93983,
+       134295
+      ]
+     }
+    },
+    "explanation": "net-lift-smash attack rate/rally: 0.26 (G1) -> 0.26 (G3)"
+   },
+   {
+    "id": "YONEX-All-England-Open-2025-Lee-Chia-Hao-TPE-vs.-Alex-Lanier-FRA-SF::freq::Alex Lanier::block-to-net counter",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Alex Lanier's use of \"block-to-net counter\" change?",
+    "options": [
+     "barely used it in either game",
+     "used it less often",
+     "used it about as often",
+     "used it more often"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       11203,
+       50256
+      ],
+      "3": [
+       93983,
+       134295
+      ]
+     }
+    },
+    "explanation": "block-to-net counter rate/rally: 0.10 (G1) -> 0.11 (G3)"
+   }
+  ]
+ },
+ {
+  "match_name": "YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Lee-Chia-Hao-TPE-F",
+  "video": "/mnt/HDD12TB-1/ding/BadmintonQA/badminton_data/videos/YONEX-All-England-Open-2025/YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Lee-Chia-Hao-TPE-F.mp4",
+  "n_games": 2,
+  "players": [
+   "Shi Yu Qi",
+   "Lee Chia Hao"
+  ],
+  "rallies_per_game": {
+   "1": 38,
+   "2": 40
+  },
+  "qa": [
+   {
+    "id": "YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Lee-Chia-Hao-TPE-F::who_def",
+    "type": "adaptation",
+    "scope": "match",
+    "question": "Across the match, which player shifted MORE toward a defensive game?",
+    "options": [
+     "Both shifted similarly",
+     "Lee Chia Hao",
+     "Neither changed much",
+     "Shi Yu Qi"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       13048,
+       51730
+      ],
+      "2": [
+       56005,
+       103648
+      ]
+     }
+    },
+    "explanation": "off-share change: Shi Yu Qi -0.14, Lee Chia Hao +0.12"
+   },
+   {
+    "id": "YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Lee-Chia-Hao-TPE-F::freq::Shi Yu Qi::lift-block defense",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Shi Yu Qi's use of \"lift-block defense\" change?",
+    "options": [
+     "used it more often",
+     "barely used it in either game",
+     "used it about as often",
+     "used it less often"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       13048,
+       51730
+      ],
+      "2": [
+       56005,
+       103648
+      ]
+     }
+    },
+    "explanation": "lift-block defense rate/rally: 0.05 (G1) -> 0.20 (G2)"
+   },
+   {
+    "id": "YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Lee-Chia-Hao-TPE-F::freq::Shi Yu Qi::serve-push pressure",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Shi Yu Qi's use of \"serve-push pressure\" change?",
+    "options": [
+     "used it more often",
+     "used it about as often",
+     "used it less often",
+     "barely used it in either game"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       13048,
+       51730
+      ],
+      "2": [
+       56005,
+       103648
+      ]
+     }
+    },
+    "explanation": "serve-push pressure rate/rally: 0.11 (G1) -> 0.10 (G2)"
+   },
+   {
+    "id": "YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Lee-Chia-Hao-TPE-F::freq::Lee Chia Hao::net-lift-smash attack",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Lee Chia Hao's use of \"net-lift-smash attack\" change?",
+    "options": [
+     "barely used it in either game",
+     "used it less often",
+     "used it more often",
+     "used it about as often"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       13048,
+       51730
+      ],
+      "2": [
+       56005,
+       103648
+      ]
+     }
+    },
+    "explanation": "net-lift-smash attack rate/rally: 0.16 (G1) -> 0.33 (G2)"
+   },
+   {
+    "id": "YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Lee-Chia-Hao-TPE-F::freq::Lee Chia Hao::lift-block defense",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 2, how did Lee Chia Hao's use of \"lift-block defense\" change?",
+    "options": [
+     "barely used it in either game",
+     "used it about as often",
+     "used it more often",
+     "used it less often"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       13048,
+       51730
+      ],
+      "2": [
+       56005,
+       103648
+      ]
+     }
+    },
+    "explanation": "lift-block defense rate/rally: 0.18 (G1) -> 0.10 (G2)"
+   },
+   {
+    "id": "YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Lee-Chia-Hao-TPE-F::rose::Shi Yu Qi",
+    "type": "tactic_rose",
+    "scope": "cross-game",
+    "question": "Which tactic did Shi Yu Qi turn to noticeably MORE in Game 2 than Game 1?",
+    "options": [
+     "lift-block defense",
+     "defensive reset",
+     "smash-netkill finish",
+     "net-lift-smash attack"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       13048,
+       51730
+      ],
+      "2": [
+       56005,
+       103648
+      ]
+     }
+    },
+    "explanation": "lift-block defense rose by +0.15/rally"
+   },
+   {
+    "id": "YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Lee-Chia-Hao-TPE-F::rose::Lee Chia Hao",
+    "type": "tactic_rose",
+    "scope": "cross-game",
+    "question": "Which tactic did Lee Chia Hao turn to noticeably MORE in Game 2 than Game 1?",
+    "options": [
+     "continuous attack pressure",
+     "net-lift-smash attack",
+     "lift-block defense",
+     "serve-push pressure"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      2
+     ],
+     "frame_spans": {
+      "1": [
+       13048,
+       51730
+      ],
+      "2": [
+       56005,
+       103648
+      ]
+     }
+    },
+    "explanation": "net-lift-smash attack rose by +0.17/rally"
+   }
+  ]
+ },
+ {
+  "match_name": "YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-6-SF",
+  "video": "/mnt/HDD12TB-1/ding/BadmintonQA/badminton_data/videos/YONEX-All-England-Open-2025/YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-6-SF.mp4",
+  "n_games": 3,
+  "players": [
+   "Li Shi Feng",
+   "Shi Yu Qi"
+  ],
+  "rallies_per_game": {
+   "1": 30,
+   "2": 42,
+   "3": 40
+  },
+  "qa": [
+   {
+    "id": "YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-6-SF::style::Li Shi Feng",
+    "type": "style_shift",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Li Shi Feng's overall playing style change?",
+    "options": [
+     "became more defensive",
+     "fluctuated with no clear trend",
+     "became more offensive",
+     "stayed roughly the same"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       10441,
+       40186
+      ],
+      "3": [
+       102610,
+       146946
+      ]
+     }
+    },
+    "explanation": "offensive share 0.39 (G1) -> 0.61 (G3)"
+   },
+   {
+    "id": "YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-6-SF::style::Shi Yu Qi",
+    "type": "style_shift",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Shi Yu Qi's overall playing style change?",
+    "options": [
+     "became more offensive",
+     "fluctuated with no clear trend",
+     "stayed roughly the same",
+     "became more defensive"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       10441,
+       40186
+      ],
+      "3": [
+       102610,
+       146946
+      ]
+     }
+    },
+    "explanation": "offensive share 0.79 (G1) -> 0.57 (G3)"
+   },
+   {
+    "id": "YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-6-SF::who_def",
+    "type": "adaptation",
+    "scope": "match",
+    "question": "Across the match, which player shifted MORE toward a defensive game?",
+    "options": [
+     "Shi Yu Qi",
+     "Both shifted similarly",
+     "Neither changed much",
+     "Li Shi Feng"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       10441,
+       40186
+      ],
+      "3": [
+       102610,
+       146946
+      ]
+     }
+    },
+    "explanation": "off-share change: Li Shi Feng +0.22, Shi Yu Qi -0.22"
+   },
+   {
+    "id": "YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-6-SF::mostdef::Li Shi Feng",
+    "type": "most_defensive_game",
+    "scope": "match",
+    "question": "In which game was Li Shi Feng the most defensive?",
+    "options": [
+     "About the same in every game",
+     "Game 1",
+     "Game 2",
+     "Game 3"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       10441,
+       40186
+      ],
+      "3": [
+       102610,
+       146946
+      ]
+     }
+    },
+    "explanation": "defensive share by game: G1 0.61, G2 0.32, G3 0.39"
+   },
+   {
+    "id": "YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-6-SF::freq::Li Shi Feng::block-to-net counter",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Li Shi Feng's use of \"block-to-net counter\" change?",
+    "options": [
+     "used it about as often",
+     "barely used it in either game",
+     "used it less often",
+     "used it more often"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       10441,
+       40186
+      ],
+      "3": [
+       102610,
+       146946
+      ]
+     }
+    },
+    "explanation": "block-to-net counter rate/rally: 0.17 (G1) -> 0.05 (G3)"
+   },
+   {
+    "id": "YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-6-SF::freq::Li Shi Feng::lift-block defense",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Li Shi Feng's use of \"lift-block defense\" change?",
+    "options": [
+     "used it more often",
+     "barely used it in either game",
+     "used it about as often",
+     "used it less often"
+    ],
+    "answer": "D",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       10441,
+       40186
+      ],
+      "3": [
+       102610,
+       146946
+      ]
+     }
+    },
+    "explanation": "lift-block defense rate/rally: 0.30 (G1) -> 0.20 (G3)"
+   },
+   {
+    "id": "YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-6-SF::freq::Shi Yu Qi::net-lift-smash attack",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Shi Yu Qi's use of \"net-lift-smash attack\" change?",
+    "options": [
+     "used it less often",
+     "used it more often",
+     "barely used it in either game",
+     "used it about as often"
+    ],
+    "answer": "A",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       10441,
+       40186
+      ],
+      "3": [
+       102610,
+       146946
+      ]
+     }
+    },
+    "explanation": "net-lift-smash attack rate/rally: 0.47 (G1) -> 0.30 (G3)"
+   },
+   {
+    "id": "YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-6-SF::freq::Shi Yu Qi::lift-block defense",
+    "type": "tactic_freq",
+    "scope": "cross-game",
+    "question": "From Game 1 to Game 3, how did Shi Yu Qi's use of \"lift-block defense\" change?",
+    "options": [
+     "barely used it in either game",
+     "used it more often",
+     "used it less often",
+     "used it about as often"
+    ],
+    "answer": "B",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       10441,
+       40186
+      ],
+      "3": [
+       102610,
+       146946
+      ]
+     }
+    },
+    "explanation": "lift-block defense rate/rally: 0.10 (G1) -> 0.25 (G3)"
+   },
+   {
+    "id": "YONEX-All-England-Open-2025-Shi-Yu-Qi-CHN-1-vs.-Li-Shi-Feng-CHN-6-SF::rose::Shi Yu Qi",
+    "type": "tactic_rose",
+    "scope": "cross-game",
+    "question": "Which tactic did Shi Yu Qi turn to noticeably MORE in Game 3 than Game 1?",
+    "options": [
+     "serve-push pressure",
+     "drop-net trap",
+     "lift-block defense",
+     "net-lift-smash attack"
+    ],
+    "answer": "C",
+    "evidence": {
+     "games": [
+      1,
+      3
+     ],
+     "frame_spans": {
+      "1": [
+       10441,
+       40186
+      ],
+      "3": [
+       102610,
+       146946
+      ]
+     }
+    },
+    "explanation": "lift-block defense rose by +0.15/rally"
+   }
+  ]
+ }
+]
