@@ -1,12 +1,28 @@
-# Whitelist: the public repo tracks only the QA sets and the evaluation script.
+# Whitelist: the public repo tracks only the QA sets, evaluation, and method code.
 /*
 !/README.md
 !/.gitignore
+
 !/scripts/
 /scripts/*
 !/scripts/eval_qa.py
+!/scripts/run_table2.py
+!/scripts/run_aks_full.py
+!/scripts/run_baselines_full.py
+!/scripts/run_evicover.py
+!/scripts/graph_clip.py
+!/scripts/aks_score.py
+!/scripts/aks_select.py
+!/scripts/videotree_select.py
+!/scripts/frames.py
+!/scripts/qwen_vl.py
+!/scripts/mplug_owl3.py
+!/scripts/llava_video.py
+
 !/badminton_data/
 /badminton_data/*
+!/badminton_data/download_youtube.py
+!/badminton_data/Badminton_video_list.csv
 !/badminton_data/vqa/
 /badminton_data/vqa/*
 !/badminton_data/vqa/taxonomy_qa_v1.json
