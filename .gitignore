@@ -4,10 +4,17 @@ __pycache__/
 
 # Generated evidence frames / viz (large, reproducible from videos)
 badminton_data/viz/
-data_pre/shot-example/frames/
-data_pre/shot-example/vqa-evidence/viz/
-data_pre/shot-example/vqa-evidence-backup/viz/
-data_pre/shot-example/vqa-qceg/viz/
-data_pre/shot-example/vqa-qceg-detective/viz/
-data_pre/shot-example/vqa-qceg-detective-cf/viz/
-data_pre/shot-example/figures/
+legacy/data_pre/shot-example/frames/
+legacy/data_pre/shot-example/vqa-evidence/viz/
+legacy/data_pre/shot-example/vqa-evidence-backup/viz/
+legacy/data_pre/shot-example/vqa-qceg/viz/
+legacy/data_pre/shot-example/vqa-qceg-detective/viz/
+legacy/data_pre/shot-example/vqa-qceg-detective-cf/viz/
+legacy/data_pre/shot-example/figures/
+BFMD_data/annotations/
+BFMD_data/viz_check/
+
+# Local-only (not published in the public repo)
+data_pre/
+docs/
+/viz/
